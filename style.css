@@ -23,9 +23,12 @@ nav {
 
 .restaurant-list {
   display: inline-block;
-  padding-top: 50px;
-  padding-left: 10px;
+  padding: 50px 16px;
 }
+
+/* trying to find class name */
+/* .fa-chevron-right {
+  color: red;} */
 
 
 /* FONTS */
