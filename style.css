@@ -24,3 +24,23 @@ nav {
 .restaurant-list {
   padding-top: 50px;
 }
+
+/* FONTS */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.restaurant-list h1 .restaurant-list h2 {
+  font-family: "San Francisco";
+}
+
+.restaurant-list h1 { 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.restaurant-list h3 { 
+  font-size: 15px;
+}
