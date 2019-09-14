@@ -22,8 +22,11 @@ nav {
 }
 
 .restaurant-list {
+  display: inline-block;
   padding-top: 50px;
+  padding-left: 10px;
 }
+
 
 /* FONTS */
 @font-face {
@@ -45,6 +48,11 @@ nav {
   font-size: 15px;
 }
 
+
+
+
+
+/* Put last */
 
 /* MEDIA QUERIES */
 /* #### Mobile Phones Portrait #### */
