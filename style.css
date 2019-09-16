@@ -18,7 +18,7 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
-  background-color: black;
+  background-color: green;
 }
 
 .restaurant-list {
@@ -51,8 +51,15 @@ nav {
   font-size: 15px;
 }
 
+.screen-title {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 0 0 16px;
+}
 
-
+.fa-chevron-right {
+  display: inline-block;
+}
 
 
 /* Put last */
