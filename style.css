@@ -38,16 +38,19 @@ nav {
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-.restaurant-list h1 .restaurant-list h2 {
+.restaurant-list h1, .restaurant-list h2, .restaurant-list h3, .restaurant-list h4 {
   font-family: "San Francisco";
 }
 
-.restaurant-list h1 { 
-  font-weight: bold;
-  font-size: 20px;
+.restaurant-list h1, .restaurant-list h2 { 
+  font-size: 34px;
 }
 
-.restaurant-list h3 { 
+.restaurant-list h1 {
+  font-weight: bold;
+}
+
+.restaurant-list h3, .restaurant-list h4 { 
   font-size: 15px;
 }
 
