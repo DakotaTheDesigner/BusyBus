@@ -1,6 +1,7 @@
 *, :before, :after {
   box-sizing: border-box;
  }
+
 body {
   background-color: #8e8e8e;
   font-family: sans-serif;
@@ -26,8 +27,7 @@ nav {
 }
 
 
-
-
+/* ALIGNMENT */
 .content, .location { 
 display: flex;
 justify-content: space-between;
@@ -46,20 +46,6 @@ div {
     display: flex;
 }
 
-/* .content {
-  display: flex;
-  padding: 0;
-  background-color: red;
-  width:90%;
-}
-
-.arrow {
-  display: flex;
-  background-color: green;
-  width:9%;
-  padding: 0; */
-
-
 /* trying to find class name */
 /* .fa-chevron-right {
   color: red;} */
@@ -76,13 +62,26 @@ div {
   font-family: "San Francisco";
 }
 
-.restaurant-list h1 { 
+.restaurant-list h1, .restaurant-list h2 { 
   font-weight: bold;
-  font-size: 20px;
+  font-size: 34px;
+}
+
+.minute {
+font-size: 17px;
+}
+
+.smallminute {
+  font-size: 15px;
+  }
+
+.service {
+  font-size: 17px;
 }
 
 .restaurant-list h3, .restaurant-list h4 { 
   font-size: 15px;
+  letter-spacing: 1.6%; 
 }
 .screen-title {
   display: inline-block;
