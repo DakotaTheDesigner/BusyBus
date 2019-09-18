@@ -94,11 +94,11 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid  #4cd964;
   margin: 1em 0;
   padding: 0;
-  color: #4cd964;
 }
+
 /* Put last */
 
 /* MEDIA QUERIES */
