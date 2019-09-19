@@ -28,7 +28,7 @@ nav {
 
 
 /* ALIGNMENT */
-.content, .location { 
+.content, .location, .non-running { 
 display: flex;
 justify-content: space-between;
 flex-flow: row wrap;
@@ -46,16 +46,18 @@ div {
     display: flex;
 }
 
-/* trying to find class name */
-/* .fa-chevron-right {
-  color: red;} */
-
 
 /* FONTS */
 @font-face {
   font-family: "San Francisco";
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.screen-title {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 0 0 16px;
 }
 
 .restaurant-list h1, .restaurant-list h2, .restaurant-list h3, .restaurant-list h4 {
@@ -65,6 +67,16 @@ div {
 .restaurant-list h1, .restaurant-list h2 { 
   font-weight: bold;
   font-size: 34px;
+}
+
+.restaurant-list h2 {
+  letter-spacing: 2.41%; 
+}
+
+.restaurant-list h3, .restaurant-list h4 { 
+  font-size: 15px;
+  letter-spacing: -1.6%; 
+  color: #666666;
 }
 
 .minute {
@@ -79,15 +91,10 @@ font-size: 17px;
   font-size: 17px;
 }
 
-.restaurant-list h3, .restaurant-list h4 { 
-  font-size: 15px;
-  letter-spacing: 1.6%; 
+.non-running, .non-running h3, .non-running h4, .fa-chevron-right {
+  color: #8c8c8c !important;
 }
-.screen-title {
-  display: inline-block;
-  font-size: 20px;
-  margin: 0 0 0 16px;
-}
+
 
 
 hr {
