@@ -47,7 +47,6 @@ div {
     display: flex;
 }
 
-
 /* FONTS */
 @font-face {
   font-family: "San Francisco";
@@ -65,23 +64,29 @@ div {
   font-family: "San Francisco";
 }
 
-.restaurant-list h1, .restaurant-list h2 { 
+.restaurant-list h1 { 
   font-weight: bold;
-  font-size: 34px;
+  font-size: 40px;
+  padding-top: 10px;
 }
 
 .restaurant-list h2 {
-  letter-spacing: 2.41%; 
+  letter-spacing: 1.45%;
+  font-weight: bold; 
+  font-size: 34px;
+  padding-top: 10px;
 }
 
 .restaurant-list h3, .restaurant-list h4 { 
   font-size: 15px;
   letter-spacing: -1.6%; 
   color: #666666;
+  padding-top: 2%;
 }
 
 .minute {
 font-size: 17px;
+letter-spacing: -2.41%;
 }
 
 .smallminute {
