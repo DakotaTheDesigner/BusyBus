@@ -24,7 +24,7 @@ nav {
 }
 
 .restaurant-list {
-  padding: 50px 16px;
+  padding: 50px 32px;
 }
 
 
@@ -36,15 +36,46 @@ flex-flow: row wrap;
 flex-basis: 94%;
 }
 
-h2, h4 { 
-text-align: right;}
+.arrow { 
+        display: flex; 
+        width: 6%; 
+        height: auto; 
+        margin: auto;
+      } 
 
-h1, h2, h3, h4 {
-  flex-basis: 50%; /* default auto */
+h2, h4 {
+text-align: right;
+ flex-basis: 30%; /* To give more space on the line to spread out route destination */ 
 }
 
+h1, h3 {
+  flex-basis: 70%;
+} /* To give more space on the line to spread out route destination */
+
 div {
-    display: flex;
+    display: flex; 
+} /* To override reset.css */
+
+.arrow {
+ /*  padding-top: 20px; */
+  vertical-align: center;
+}
+
+/* EXPERIEMENTING WITH FLEX */
+h1 {
+  background-color: red;
+}
+
+h2 {
+  background-color: yellow;
+}
+
+h3 {
+  background-color: blue;
+}
+
+h4 {
+  background-color: purple;
 }
 
 /* FONTS */
@@ -114,6 +145,7 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+
 
 /* Put last */
 
