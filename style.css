@@ -13,11 +13,12 @@ body {
   margin: 0 auto;
   width: 420px;
   height: 736px;
+  overflow: hidden;
 }
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 15px 15px 15px;
   position: fixed;
   width: 420px;
   background-color:#4cd964;
@@ -61,21 +62,21 @@ div {
   vertical-align: center;
 }
 
-/* EXPERIEMENTING WITH FLEX */
-h1 {
-  background-color: red;
+/* FLEXING SHIT */
+
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
 }
 
-h2 {
-  background-color: yellow;
+.ghost {
+  visibility: hidden;
 }
 
-h3 {
-  background-color: blue;
-}
-
-h4 {
-  background-color: purple;
+.arrow-left {
+  padding-top: 1%;
 }
 
 /* FONTS */
@@ -88,7 +89,7 @@ h4 {
 .screen-title {
   display: inline-block;
   font-size: 20px;
-  margin: 0 0 0 16px;
+  margin: 0;
 }
 
 .restaurant-list h1, .restaurant-list h2, .restaurant-list h3, .restaurant-list h4 {
