@@ -28,6 +28,9 @@ nav {
   padding: 50px 32px;
 }
 
+header {
+  background-color:#4cd964}
+
 
 /* ALIGNMENT */
 .content, .location, .running, .non-running { 
