@@ -22,14 +22,20 @@ nav {
   position: fixed;
   width: 420px;
   background-color:#4cd964;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
 }
 
 .restaurant-list {
   padding: 50px 32px;
 }
 
-header {
-  background-color:#4cd964}
+img {
+  display: flex;
+  width: 420px;
+  background-color:#4cd964;
+}
 
 
 /* ALIGNMENT */
@@ -66,13 +72,6 @@ div {
 }
 
 /* FLEXING SHIT */
-
-
-.nav-content {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 2%;
-}
 
 .ghost {
   visibility: hidden;
