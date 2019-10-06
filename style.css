@@ -27,9 +27,12 @@ nav {
   padding-top: 2%;
 }
 
-.bus-list {
-  padding: 50px 32px;
+.line-list {
+  padding: 50px 32px 0;
 }
+
+.alert-list {
+  padding: 0 32px;}
 
 img {
   display: flex;
@@ -38,8 +41,12 @@ img {
 }
 
 
+
+
+
+
 /* ALIGNMENT */
-.content, .location, .non-running-content { 
+.content, .bus-incoming, .alert, .non-running-content { 
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
@@ -97,24 +104,24 @@ div {
   margin: 0;
 }
 
-.bus-list h1, .bus-list h2, .bus-list h3, .bus-list h4 {
+h1, h2, h3, h4 {
   font-family: "San Francisco";
 }
 
-.bus-list h1 { 
+h1 { 
   font-weight: bold;
   font-size: 40px;
   padding-top: 10px;
 }
 
-.bus-list h2 {
+h2 {
   letter-spacing: 1.45%;
   font-weight: bold; 
   font-size: 34px;
   padding-top: 10px;
 }
 
-.bus-list h3, .bus-list h4 { 
+h3, h4 { 
   font-size: 15px;
   letter-spacing: -1.6%; 
   color: #666666;
@@ -151,6 +158,9 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+
+/* FORMAT LIST TO LIST WITHOUT BULLETS OR INDENT*/
+ul {list-style-type:none;}
 
 
 /* Put last */
