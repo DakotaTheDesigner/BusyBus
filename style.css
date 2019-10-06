@@ -39,19 +39,22 @@ img {
 
 
 /* ALIGNMENT */
-.content, .location, .running, .non-running { 
-display: flex;
-justify-content: space-between;
-flex-flow: row wrap;
-flex-basis: 94%;
+.content, .location, .non-running-content { 
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  flex-basis: 94%;
 }
 
+.content, .non-running-content{
+  padding-right: 5%;}
+
 .arrow { 
-        display: flex; 
-        width: 6%; 
-        height: auto; 
-        margin: auto;
-      } 
+  display: flex; 
+  width: 6%; 
+  height: auto; 
+  margin: auto;
+} 
 
 h2, h4 {
 text-align: right;
@@ -127,11 +130,11 @@ letter-spacing: -2.41%;
   font-size: 15px;
   }
 
-.non-running, .non-running h3, .non-running h4, .fa-chevron-right {
+.non-running-content, .fa-chevron-right {
   color: #8c8c8c !important;
 }
 
-.non-running h2 {
+.non-running-content h2 {
 font-size: 17px;
 padding-top: 15px;
 }
