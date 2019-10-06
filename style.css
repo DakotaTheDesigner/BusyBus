@@ -46,14 +46,14 @@ img {
 
 
 /* ALIGNMENT */
-.content, .bus-incoming, .alert, .non-running-content { 
+.bus-info, .bus-incoming, .alert, .alert-info { 
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
   flex-basis: 94%;
 }
 
-.content, .non-running-content{
+.bus-info, .alert-info{
   padding-right: 5%;}
 
 .arrow { 
@@ -137,11 +137,11 @@ letter-spacing: -2.41%;
   font-size: 15px;
   }
 
-.non-running-content, .fa-chevron-right {
+.alert-info, .fa-chevron-right {
   color: #8c8c8c !important;
 }
 
-.non-running-content h2 {
+.alert-info h2 {
 font-size: 17px;
 padding-top: 15px;
 }
