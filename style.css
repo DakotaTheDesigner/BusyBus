@@ -18,7 +18,7 @@ nav {
   background-color:#4cd964;
   display: flex;
   justify-content: space-between;
-  padding-top: 2%;
+  /* padding-top: 2%; */
 }
 
 .line-list {
@@ -57,12 +57,12 @@ img {
   margin: auto;
 } 
 
-h2, h4 {
+.arrival-time, .next-arrival-time {
 text-align: right;
  flex-basis: 30%; /* To give more space on the line to spread out route destination */ 
 }
 
-h1, h3 {
+.line-number, .line-destination {
   flex-basis: 70%;
 } /* To give more space on the line to spread out route destination */
 
@@ -105,24 +105,24 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4 {
+.line-number, .arrival-time, .line-destination, .next-arrival-time {
   font-family: "San Francisco";
 }
 
-h1 { 
+.line-number { 
   font-weight: bold;
   font-size: 40px;
   padding-top: 10px;
 }
 
-h2 {
+.line-list .arrival-time {
   letter-spacing: 1.45%;
   font-weight: bold; 
   font-size: 34px;
   padding-top: 15px;
 }
 
-h3, h4 { 
+.line-destination, .next-arrival-time { 
   font-size: 15px;
   letter-spacing: -1.6%; 
   color: #666666;
@@ -142,7 +142,7 @@ letter-spacing: -2.41%;
   color: #8c8c8c !important;
 }
 
-.alert-info h2 {
+.alert-list .arrival-time {
 font-size: 17px;
 padding-top: 10%;
 }
